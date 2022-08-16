@@ -10,9 +10,9 @@
 ### There is no any single line if CSS i have used.
 ### My Website is Fully Responsive , you can view in mobile , tab or desktop.
 
-[Live Deployed Link Of my Project]()
+[Live Deployed Link Of my Project](https://paytm-clone-in.netlify.app/)
 
-![Picture of my Project ]()
+![Picture of my Project ](./web-page.jpg)
 
 
 ### For making my web page responsive mostly i used flext box and grid .
