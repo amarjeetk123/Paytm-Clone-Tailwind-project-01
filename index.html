@@ -36,23 +36,45 @@
         // plugins: [require("daisyui")],
       }
     </script>
+    <style>
+        @media screen and (max-width:640px) {
+           .list{
+            color: #00baf2;
+            font-size: 30px ;
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            top: 10%;
+            left: -100%;
+            background-color: #013f81;
+           } 
+           #check:checked ~ .list{
+               left: 0%;
+           }
+            
+        }
+    </style>
 </head>
 <body class="bg-gradient-to-b from-gray-200 to-white">
 
 
 
     <nav class="bg-white w-full px-12">
-        <div class="container mx-auto flex  flex-col nav:flex-row items-center justify-between" >
+        <div class="container mx-auto flex  sm:flex-col nav:flex-row items-center justify-between navbars" >
             <div class="left flex items-center gap-5">
                 <img class="w-48" src="https://assetscdn1.paytm.com/images/catalog/category/5165/paytm_logo.png" alt=""> 
             </div>
+            <input type="checkbox" name="" id="check" class="hidden">
+            <label for="check">
+                <i class="fas fa-bars fa-2x absolute right-0 top-2 sm:hidden"></i>
+            </label>
 
-           <ul class="flex gap-6">
-            <li class="text-xl font-semibold">Paytm for Consumer</li>
-            <li class="text-xl font-semibold">Paytm for Business</li>
-            <li class="text-xl font-semibold">Comapny</li>
-            <li class="text-xl font-semibold">Invester</li>
-            <li class="text-xl font-semibold">Career</li>
+           <ul class="sm:flex lg:gap-6 sm:gap-4 list text-center ">
+            <li class="lg:text-xl font-semibold ">Paytm for Consumer</li>
+            <li class="lg:text-xl font-semibold mt-10 sm:mt-0">Paytm for Business</li>
+            <li class="lg:text-xl font-semibold mt-10 sm:mt-0">Comapny</li>
+            <li class="lg:text-xl font-semibold mt-10 sm:mt-0">Invester</li>
+            <li class="lg:text-xl font-semibold mt-10 sm:mt-0">Career</li>
            </ul>
  
             <div class="right my-4 nav:my0">
