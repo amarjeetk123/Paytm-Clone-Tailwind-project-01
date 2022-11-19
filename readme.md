@@ -10,8 +10,8 @@
 ### I have not used a single line of CSS 3 for making this project.
 ### My Website is Fully Responsive , you can view in mobile , tab or desktop.
 
-[Live Deployed Link Of my Project](https://paytm-clone-in.netlify.app/)
 
+![](./webpage.jpg)
 
 
 
